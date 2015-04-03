@@ -8,33 +8,6 @@
 	</div>
 </div>
 
-<!-- TEMPERATURES -->
-<div class="row">
-	<!-- EXTRUDER TEMP -->
-	<div class="col-sm-6">
-		<div class="well">
-			<h5><a class="btn btn-default refresh-temperature" href="javascript:void(0);"><i class="fab-lg fab-fw icon-fab-term txt-color-red"></i> Extruder</a><span id="ext-degrees" class="label label-info pull-right"></span>&nbsp;<span id="ext-actual-degrees" class="label label-danger pull-right margin-right-5"></span></h5>
-			<div id="act-ext-temp" class="noUiSlider"></div>
-			<div id="ext-target-temp" class="noUiSlider extruder-range"></div>
-			<p class="font-md">
-				&nbsp;
-			</p>
-		</div>
-	</div>
-
-	<!-- BED TEMP -->
-	<div class="col-sm-6">
-		<div class="well">
-			<h5><a class="btn btn-default refresh-temperature" href="javascript:void(0);"><i class="fab-lg fab-fw icon-fab-term txt-color-red"></i>Bed</a><span id="bed-degrees" class="label label-info pull-right"></span><span id="bed-actual-degrees" class="label label-danger pull-right margin-right-5"></span></h5>
-			<div id="act-bed-temp" class="noUiSlider"></div>
-			<div id="bed-target-temp" class="noUiSlider bed-range"></div>
-			<p class="font-md">
-				&nbsp;
-			</p>
-		</div>
-	</div>
-</div>
-
 <!-- JOG -->
 <div class="row">
 	<div class="col-sm-12">
@@ -94,72 +67,6 @@
 						<hr />
 						<a href="javascript:void(0)" class="btn btn-default axisz" data-attribute-step="1" data-attribute-function="zup"> <i class="fa fa-angle-double-down"> </i>&nbsp; Z </a>
 					</div>
-				</div>
-				<!-- AXIS MODE, EXTRUDER MODE -->
-				<div class="col-sm-3">
-
-					<div class="tab-content">
-
-						<ul id="internal-tab-1" class="nav nav-tabs tabs-pull-right">
-							<li class="active">
-								<a href="#modeb" data-toggle="tab" data-mode="e" class="extruder-mode"><i class="fab-lg fab-fw icon-fab-e fab-2x"></i></a>
-							</li>
-							<li>
-								<a href="#modea" data-toggle="tab" data-mode="a" class="extruder-mode"><i class="fab-lg fab-fw icon-fab-a fab-2x"></i></a>
-							</li>
-							<li class="pull-left">
-								<span>Mode:</span><span class="mode">Extruder</span>
-							</li>
-						</ul>
-						<div class="tab-content padding-10">
-							<!-- A MODE -->
-							<div class="tab-pane fade in " id="modea">
-								<div class="knobs-demo  text-center" id="mode-a">
-									<input class="knob" data-width="200" data-cursor="true" data-step="0.5" data-min="1" data-max="360" data-thickness=".3" data-fgColor="#A0CFEC" data-displayInput="true">
-								</div>
-							</div>
-							<!-- B MODE -->
-							<div class="tab-pane fade in active" id="modeb">
-								<div class="row">
-									<div class="smart-form" >
-										<fieldset style="background: none !important">
-											<div class="row">
-												<section class="col col-3 text-center">
-
-												</section>
-												<section class="col col-6 text-center">
-													<label><strong>Step (mm) </strong></label>
-												</section>
-												<section class="col col-3 text-center">
-
-												</section>
-											</div>
-											<div class="row">
-												<section class="col col-3" >
-													<button data-action="-" type="button" class="btn btn-info btn-sm btn-block extruder-e-action">
-														<i class="fa fa-minus"></i>
-													</button>
-												</section>
-												<section class="col col-6" >
-													<label class="input">
-														<input id="extruder-e-value" type="text" style="text-align: center;" value="10" />
-													</label>
-												</section>
-												<section class="col col-3" >
-													<button data-action="+" type="button" class="btn btn-info btn-sm btn-block extruder-e-action">
-														<i class="fa fa-plus"></i>
-													</button>
-												</section>
-											</div>
-										</fieldset>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
 				</div>
 			</div>
 		</div>
