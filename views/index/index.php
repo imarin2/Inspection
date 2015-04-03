@@ -102,64 +102,6 @@
 	</div>
 </div>
 
-<!-- CONSOLE, MDI -->
-<div class="row">
-	<div class="col-sm-6">
-		<div class="well">
-			<div class="row">
-			</div>
-			<!--
-			<div class="row">
-			<div class="col-sm-12">
-			<textarea class="form-control" id="mdi"></textarea>
-			<button style="margin-top:5px;" id="run" type="button" class="btn btn-info btn-sm btn-block">
-			Run
-			</button>
-			</div>
-			</div>
-			-->
-
-			<div class="row">
-				<div class="col-sm-12">
-					<!-- CHAT TEXTAREA -->
-					<div class="textarea-div">
-
-						<div class="typearea">
-							<textarea rows="8" placeholder="Write command" id="mdi" class="custom-scroll"></textarea>
-						</div>
-
-					</div>
-
-					<!-- CHAT REPLY/SEND -->
-					<span class="textarea-controls">
-						<button id="run" class="btn btn-sm btn-info pull-right">
-							Run
-						</button> </span>
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-6">
-		<div class="well">
-			<div class="row">
-				<div class="col-sm-12">
-					<ul class="list-button pull-right">
-						<li>
-							<a id="clear-console" href="javascript:void(0)" class="btn btn-info btn-xs"> <i class="fa fa-eraser"></i> Clear </a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<pre class="console"></pre>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
 <!-- HELP MODAL -->
 <div class="modal fade" tabindex="-1" role="dialog"  aria-hidden="true" id="manula-modal">
 	<div class="modal-dialog modal-lg">
