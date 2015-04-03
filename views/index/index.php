@@ -13,6 +13,34 @@
 	<div class="col-sm-12">
 		<div class="well">
 			<div class="row">
+				<! -- buttons -->
+				<div class="col-sm-3"></div>
+				<div class="col-sm-9 ">
+					<ul class="list-button pull-right">
+						<li>
+							<a id="act-joy" href="javascript:void(0);" class="btn btn-info btn-xs" title="Activate Joystick Control">Activate joystick</a>
+						</li>
+						<li>
+							<a class="btn btn-info btn-xs" id="home-all-axis" data-macro="true"  href="javascript:void(0)"  title="Home all axis">Home All axis</a>
+						</li>
+						<li>
+							<a class="btn btn-info btn-xs" id="zero-all" href="javascript:void(0)"  title="Zero All">Zero All</a>
+						</li>
+						<li>
+							<a class="btn btn-info btn-xs" id="position" href="javascript:void(0)"  title="Position">Position</a>
+						</li>
+						<li>
+							<a class="btn btn-info btn-xs" id="bed-align" data-macro="true" href="javascript:void(0)" class="macro" title="Auto Bed Leveling">ABL</a>
+						</li>
+
+						<li>
+							<a id="gcode-manual" data-toggle="modal" href="<?php echo site_url("jog/manual") ?>" data-target="#manula-modal" class="btn btn-default btn-xs " href="javascript:void(0);"><i class="fa fa-support"></i> Help</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="row">
 				<!-- STEP, FEEDRATE -->
 				<div class="col-sm-3">
 					<div class="form-horizontal">
@@ -79,31 +107,6 @@
 	<div class="col-sm-6">
 		<div class="well">
 			<div class="row">
-				<div class="col-sm-3"></div>
-				<div class="col-sm-9 ">
-					<ul class="list-button pull-right">
-						<li>
-							<a id="act-joy" href="javascript:void(0);" class="btn btn-info btn-xs" title="Activate Joystick Control">Activate joystick</a>
-						</li>
-						<li>
-							<a class="btn btn-info btn-xs" id="home-all-axis" data-macro="true"  href="javascript:void(0)"  title="Home all axis">Home All axis</a>
-						</li>
-						<li>
-							<a class="btn btn-info btn-xs" id="zero-all" href="javascript:void(0)"  title="Zero All">Zero All</a>
-						</li>
-						<li>
-							<a class="btn btn-info btn-xs" id="position" href="javascript:void(0)"  title="Position">Position</a>
-						</li>
-						<li>
-							<a class="btn btn-info btn-xs" id="bed-align" data-macro="true" href="javascript:void(0)" class="macro" title="Auto Bed Leveling">ABL</a>
-						</li>
-
-						<li>
-							<a id="gcode-manual" data-toggle="modal" href="<?php echo site_url("jog/manual") ?>" data-target="#manula-modal" class="btn btn-default btn-xs " href="javascript:void(0);"><i class="fa fa-support"></i> Help</a>
-						</li>
-
-					</ul>
-				</div>
 			</div>
 			<!--
 			<div class="row">
