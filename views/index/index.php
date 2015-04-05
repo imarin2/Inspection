@@ -8,6 +8,13 @@
 	</div>
 </div>
 
+<div class="row">
+               <div class="col-sm-6">
+                        <h5 class="text-left">You can connect to tcp://192.168.10.120:8080 using VLC to see the microscope video feed </h5>
+                </div>
+</div>
+
+
 <!-- JOG -->
 <div class="row">
 	<div class="col-sm-12">

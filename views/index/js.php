@@ -9,7 +9,8 @@
 	var showTemperatureConsole = false;
 	var disableInputs = false;
 
-	
+
+
 	$(function() { 
 		
 		/** MOTORS */
@@ -794,6 +795,21 @@
             	ticker_url = '';
             });
     }
-	
-	
+
+	$(document).ready(function(){
+
+            var now = jQuery.now();
+
+	    $.ajax({
+                type: "POST",
+                url: "/fabui/application/plugins/inspection/ajax/startvideofeed.php",
+                data: {
+                    time: now
+                },
+                dataType: "html"
+            }).done(function(data) {
+                ticker_url = '';
+            });
+	});
+
 </script>
